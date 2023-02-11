@@ -1,0 +1,357 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: montserrat;
+    padding-top: 70px;
+}
+/*---------------------------------------nav section-------------------------------------*/
+nav  {
+    background: rgb(59,154,156);
+    background: linear-gradient(0deg, rgba(59,154,156,1) 0%, rgba(6,4,0,1) 100%);
+    height: 80px;
+    width: 100%;
+}
+label.logo {
+    color: aliceblue;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a {
+    color: aliceblue;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+a.active,a:hover {
+    background: rgb(59,154,156);
+    background: linear-gradient(0deg, rgba(59,154,156,1) 0%, rgba(203,202,200,1) 100%); 
+    transition: .5s;
+}
+.checkbtn {
+    font-size: 30px;
+    color: aliceblue;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.color-submit {
+    background: rgb(59,154,156);
+    background: linear-gradient(0deg, rgba(59,154,156,1) 0%, rgba(6,4,0,1) 100%);
+}
+#check {
+    display: none;
+}
+@media (max-width: 952px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+@media (max-width:858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3350;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    a:hover,a.active {
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+  
+}
+.nav-item {
+    color: aliceblue;
+}
+ .nav-item ul.dropdown-menu li {
+    color: green;
+ }
+.color-submit {
+    background: skyblue;
+}
+/*------------------------------------------------------gallerysection---------------------------------------------*/
+.gallery-title {
+    padding-top: 5%;
+    text-align: center;
+    padding-bottom: 2%;
+    font-size: 36px;
+    font-size: 24px;
+    font-weight: 600px;
+    margin-bottom: 30px;
+    color:#2c3350;
+    text-transform:uppercase;
+    
+}
+/*-------------------------------------------------------banner section------------------------------------------*/
+#banner {
+    background-image: rgb(59,154,156);
+    background: linear-gradient(0deg, rgba(59,154,156,1) 0%, rgba(203,202,200,1) 100%); ;
+    padding-top: 5%;
+ }
+
+ .promo-title {
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 10px;
+}
+.play-btn {
+  
+    margin: 15px;
+    
+}
+#banner a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: large;
+}
+.img-fluid {
+    height: 350px;
+    width: 300;
+    margin-top: 10px;
+}
+.bottom-img {
+    width: 100%;
+    height: 200px;
+}
+.linear-gradient {
+    width: 100%;
+    height: 30px;
+    background-image: linear-gradient(to right, #00b4db, #0083b0);
+    
+    
+}
+/*---------------------------------------------------------------footer section------------------------------------------*/
+.footer {
+    background-image: rgb(59,154,156);
+    background: linear-gradient(0deg, rgba(59,154,156,1) 0%, rgba(203,202,200,1) 100%); ;
+   
+}
+
+.hr {
+    background: white;
+}
+.Copyright {
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.customer {
+    font-size: 24px;
+    font-weight: 600px;
+    margin-bottom: 30px;
+    color: white;
+    text-transform: uppercase;
+   
+
+}
+.footer-img {
+    height: 100px;
+    width: 100%;
+}
+.fa {
+    margin: 8px;
+}
+.provider {
+    color: aliceblue;
+}
+/*--------------------------------------------social mediasection----------------------------------------------*/
+#social-media {
+    background: rgb(216,227,214);
+background: linear-gradient(90deg, rgba(216,227,214,1) 17%, rgba(83,218,187,1) 74%, rgba(167,226,145,1) 95%);
+    padding: 100px 0;
+}
+#social-media p {
+    font-size: 36px;
+    font-weight: 600px;
+    margin-bottom: 30px;
+}
+.social-icons img {
+    width: 60px;
+    transition: 0.5s;
+}
+.social-icons a:hover img {
+    transform: translateY(-10px);
+}
+.nav-item {
+    color: aliceblue;
+}
+ .nav-item ul.dropdown-menu li {
+    color: green;
+ }
+ /*----------------------------------banner section-------------------*/
+
+/*-----------------------------weekly tournaments section--------------------------*/
+#tournament {
+    padding: 90px 0px;
+}
+.tourament-img {
+    width: 350px;
+    height: 350px;
+    margin-top: 20px;
+}
+.chess-tourament {
+    padding: 20px;
+}
+.chess-tourament h4 {
+    padding: 5px;
+    margin-top: 35px;
+    text-transform: uppercase;
+}
+.title::before
+{
+    content: '';
+    background: #7b1978;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after
+{
+    content: '';
+    background: #7b1978;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+.btn-success {
+    align-items: center;
+}
+#tournament .btn-success {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background: rgb(59,154,156);
+    background: linear-gradient(0deg, rgba(59,154,156,1) 0%, rgba(6,4,0,1) 100%);
+    font-size: larger;
+}
+
+/*----------------------------------------about us section-------------------------------*/
+#about-us {
+background: background-image: rgb(59,154,156);
+background: linear-gradient(0deg, rgba(59,154,156,1) 0%, rgba(203,202,200,1) 100%);
+padding-bottom: 50px;
+padding-top: 50px;
+}
+.about-title {
+font-size: 40px;
+}
+#about-us ul li {
+margin: 10px 0;
+}
+#about-us ul {
+margin-left: 20px;
+}
+/*------------------------------------------chess-books section-------------------------------------*/
+#chess-books {
+margin: 100px;
+}
+/* .pictures {
+width: 430px;
+height: 300px; */
+
+.chess-books {
+border-left: 4px solid blueviolet;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+.chess-books img{
+height: 60px;
+width: 60px;
+border-radius: 50%;
+margin: 0 10px;
+}
+.user-details {
+display: inline-block;
+font-size: 12px;
+
+}
+.books img {
+width: 300px;
+height: 300px;
+margin-top: 50px;
+
+}
+/*--------------------------------------social media section---------------------------------*/
+
+/*-----------------------------------------footer section----------------------------------*/
+.footer {
+background-image: rgb(59,154,156);
+    background: linear-gradient(0deg, rgba(59,154,156,1) 0%, rgba(203,202,200,1) 100%); ;
+
+}
+
+
+.hr {
+background: white;
+}
+.Copyright {
+margin-bottom: 0;
+padding-bottom: 20px;
+text-align: center;
+}
+.customer {
+font-size: 36px;
+font-weight: 600px;
+margin-bottom: 30px;
+color: white;
+text-transform: uppercase;
+margin: ;
+
+}
+.footer-img {
+height: 100px;
+width: 100%;
+}
+.fa {
+margin: 8px;
+}
+.provider {
+color: aliceblue;
+}
