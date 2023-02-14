@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: montserrat;
+    font-family: sans-serif;
     padding-top: 70px;
 }
 /*---------------------------------------nav section-------------------------------------*/
@@ -31,6 +31,7 @@ nav ul li {
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
+    
 }
 nav ul li a {
     color: aliceblue;
@@ -38,7 +39,18 @@ nav ul li a {
     text-transform: uppercase;
     padding: 7px 13px;
     border-radius: 3px;
+    text-decoration: none;
 }
+.dropdown-menu {
+    background: rgb(59,154,156);
+    background: linear-gradient(0deg, rgba(59,154,156,1) 0%, rgba(6,4,0,1) 100%);
+   
+}
+.dropdown-item {
+    color: aliceblue !important
+
+}
+
 a.active,a:hover {
     background: rgb(59,154,156);
     background: linear-gradient(0deg, rgba(59,154,156,1) 0%, rgba(203,202,200,1) 100%); 
@@ -119,6 +131,7 @@ a.active,a:hover {
     margin-bottom: 30px;
     color:#2c3350;
     text-transform:uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
 /*-------------------------------------------------------banner section------------------------------------------*/
@@ -126,12 +139,16 @@ a.active,a:hover {
     background-image: rgb(59,154,156);
     background: linear-gradient(0deg, rgba(59,154,156,1) 0%, rgba(203,202,200,1) 100%); ;
     padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 3%;
  }
 
  .promo-title {
     font-weight: 600;
     font-size: 40px;
-    margin-top: 10px;
+    margin-top: 3px;
+   
+   
 }
 .play-btn {
   
@@ -155,10 +172,15 @@ a.active,a:hover {
 .linear-gradient {
     width: 100%;
     height: 30px;
-    background-image: linear-gradient(to right, #00b4db, #0083b0);
-    
-    
+    background-image: linear-gradient(to right, #00b4db, #0083b0); 
 }
+h1 {
+   font-family:  Georgia, 'Times New Roman', Times, serif;
+}
+h5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 /*---------------------------------------------------------------footer section------------------------------------------*/
 .footer {
     background-image: rgb(59,154,156);
@@ -217,7 +239,7 @@ background: linear-gradient(90deg, rgba(216,227,214,1) 17%, rgba(83,218,187,1) 7
  .nav-item ul.dropdown-menu li {
     color: green;
  }
- /*----------------------------------banner section-------------------*/
+
 
 /*-----------------------------weekly tournaments section--------------------------*/
 #tournament {
@@ -272,7 +294,7 @@ background: linear-gradient(90deg, rgba(216,227,214,1) 17%, rgba(83,218,187,1) 7
     font-size: larger;
 }
 
-/*----------------------------------------about us section-------------------------------*/
+/*----------------------------------------benefits of chess-------------------------------*/
 #about-us {
 background: background-image: rgb(59,154,156);
 background: linear-gradient(0deg, rgba(59,154,156,1) 0%, rgba(203,202,200,1) 100%);
@@ -318,8 +340,6 @@ height: 300px;
 margin-top: 50px;
 
 }
-/*--------------------------------------social media section---------------------------------*/
-
 /*-----------------------------------------footer section----------------------------------*/
 .footer {
 background-image: rgb(59,154,156);
