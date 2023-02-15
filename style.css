@@ -41,6 +41,15 @@ nav ul li a {
     border-radius: 3px;
     text-decoration: none;
 }
+.dropdown-toggle a:hover {
+    background: rgb(59,154,156);
+    background: linear-gradient(0deg, rgba(59,154,156,1) 0%, rgba(6,4,0,1) 100%);
+    line-height: 80px;
+    margin: 0 5px;
+    size: 1px;
+   
+
+}
 .dropdown-menu {
     background: rgb(59,154,156);
     background: linear-gradient(0deg, rgba(59,154,156,1) 0%, rgba(6,4,0,1) 100%);
@@ -120,6 +129,7 @@ a.active,a:hover {
 .color-submit {
     background: skyblue;
 }
+
 /*------------------------------------------------------gallerysection---------------------------------------------*/
 .gallery-title {
     padding-top: 5%;
@@ -240,8 +250,13 @@ background: linear-gradient(90deg, rgba(216,227,214,1) 17%, rgba(83,218,187,1) 7
     color: green;
  }
 /*----------------------------------log in-------------------------------------*/
-.btn-success {
+.submit-now {
     width: 100%;
+    color: aliceblue;
+    text-transform:capitalize;
+    background: rgb(59,154,156);
+    background: linear-gradient(0deg, rgba(59,154,156,1) 0%, rgba(6,4,0,1) 100%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /*-----------------------------weekly tournaments section--------------------------*/
@@ -286,9 +301,10 @@ background: linear-gradient(90deg, rgba(216,227,214,1) 17%, rgba(83,218,187,1) 7
 }
 .btn-success {
     align-items: center;
+    
 }
 
-#tournament .btn-success {
+.join-now {
     box-shadow: none;
     padding: 8px 25px;
     border: none;
@@ -296,6 +312,7 @@ background: linear-gradient(90deg, rgba(216,227,214,1) 17%, rgba(83,218,187,1) 7
     background: rgb(59,154,156);
     background: linear-gradient(0deg, rgba(59,154,156,1) 0%, rgba(6,4,0,1) 100%);
     font-size: larger;
+    color: aliceblue;
 }
 
 
@@ -339,12 +356,17 @@ display: inline-block;
 font-size: 12px;
 
 }
-.books img {
-width: 300px;
-height: 300px;
+.books .book-img-1 {
+width: 340px;
+height: 350px;
 margin-top: 50px;
-
 }
+.books .book-img-2 {
+width: 450px;
+height: 350px;
+margin-top: 50px;
+}
+
 /*------------------------registration form--------------------*/
 .rounded-top {
     border-top: 3px solid green;
