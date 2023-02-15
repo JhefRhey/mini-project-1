@@ -239,7 +239,10 @@ background: linear-gradient(90deg, rgba(216,227,214,1) 17%, rgba(83,218,187,1) 7
  .nav-item ul.dropdown-menu li {
     color: green;
  }
-
+/*----------------------------------log in-------------------------------------*/
+.btn-success {
+    width: 100%;
+}
 
 /*-----------------------------weekly tournaments section--------------------------*/
 #tournament {
@@ -284,6 +287,7 @@ background: linear-gradient(90deg, rgba(216,227,214,1) 17%, rgba(83,218,187,1) 7
 .btn-success {
     align-items: center;
 }
+
 #tournament .btn-success {
     box-shadow: none;
     padding: 8px 25px;
@@ -293,6 +297,7 @@ background: linear-gradient(90deg, rgba(216,227,214,1) 17%, rgba(83,218,187,1) 7
     background: linear-gradient(0deg, rgba(59,154,156,1) 0%, rgba(6,4,0,1) 100%);
     font-size: larger;
 }
+
 
 /*----------------------------------------benefits of chess-------------------------------*/
 #about-us {
@@ -338,6 +343,11 @@ font-size: 12px;
 width: 300px;
 height: 300px;
 margin-top: 50px;
+
+}
+/*------------------------registration form--------------------*/
+.rounded-top {
+    border-top: 3px solid green;
 
 }
 /*-----------------------------------------footer section----------------------------------*/
