@@ -131,7 +131,7 @@ a.active,a:hover {
 }
 /*-------------------------------------------------carousel sectiom----------------------------------------------*/
  .carousel-item {
-    height: 70vh;
+    
 }
 
 
@@ -197,6 +197,25 @@ h5 {
 }
 
 /*---------------------------------------------------------------footer section------------------------------------------*/
+/*-----------------------------------------------------------mission section-----------------------------------------------*/
+.card {
+    margin-top: 50px;
+    border-top:10px solid rgb(59,154,156);
+    text-align: justify;
+    border-left: 2px solid rgb(59,154,156);
+    margin-bottom: 50px;
+}
+.card-1 {
+    margin-left: 250px;
+    border-top: 10px solid rgb(59,154,156);
+    margin-top: 70px;
+    padding: 30px;
+    margin-right: 200px;
+    border-left: 3px solid rgb(59,154,156) ;
+    margin-bottom: 50px;
+}
+
+
 .footer {
     background-image: rgb(59,154,156);
     background: linear-gradient(0deg, rgba(59,154,156,1) 0%, rgba(203,202,200,1) 100%); ;
