@@ -202,8 +202,10 @@ h5 {
     margin-top: 50px;
     border-top:10px solid rgb(59,154,156);
     text-align: justify;
-    border-left: 2px solid rgb(59,154,156);
+    border-left: 4px solid rgb(59,154,156);
     margin-bottom: 50px;
+    border-bottom: 2px dashed black;
+
 }
 .card-1 {
     margin-left: 250px;
@@ -365,7 +367,7 @@ width: 430px;
 height: 300px; */
 
 .chess-books {
-border-left: 4px solid blueviolet;
+border-left: 5px solid rgb(59,154,156) ;
 margin-top: 50px;
 margin-bottom: 50px;
 }
